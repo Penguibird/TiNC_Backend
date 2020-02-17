@@ -9,7 +9,7 @@ class CrmProvider {
 
   async getAllEntries() {
     return await this.ref.get()
-      .then(snapshot => { return snapshot.docs.map(doc => doc.data()) })
+      .then(snapshot => { return snapshot.docs.map(doc => doc.data()) });
   }
   async getEntryByID(id) {
     return await this.ref.doc(id).get()
