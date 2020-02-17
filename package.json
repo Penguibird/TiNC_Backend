@@ -1,10 +1,11 @@
 {
-  "name": "crm-backend",
+  "name": "graphqlservice",
   "version": "1.0.0",
   "description": "backend for crm",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "run": "node index.js"
   },
   "author": "",
   "license": "ISC",
